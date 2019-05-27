@@ -1,0 +1,27 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body style="background: linear-gradient(-45deg, rgba(231,56,39,1) 0%, rgba(240,47,23,1) 29%, rgba(246,41,12,1) 39%, rgba(241,111,92,1) 58%, rgba(248,80,50,1) 100%);">
+<label style="margin-left: 700px;margin-top: 200px">Digite oq o daniel é</label><br />
+<input id="cu" class="col-md-2" style="margin-left: 650px;"></input><br /><br />
+<button class="btn btn-primary" style="margin-left: 740px"onclick="loginho()">clique</button>
+
+</body>
+</html>
+
+
+
+<script>
+function loginho(){
+var login = document.getElementById("cu").value;
+if(login == "Guei" || login == 'guei' || login == 'gay' || login == 'gayzao'){
+window.location.href = "pagina1.html";
+}else{
+alert('errado');
+}
+
+}
+
+</script>
