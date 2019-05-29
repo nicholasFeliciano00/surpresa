@@ -1,0 +1,28 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://www.neoconsig.com.br/neoconsig/public/assets/global/plugins/bootstrap/css/bootstrap.css">
+</head>
+
+<body style="background: linear-gradient(-45deg, rgba(231,56,39,1) 0%, rgba(240,47,23,1) 29%, rgba(246,41,12,1) 39%, rgba(241,111,92,1) 58%, rgba(248,80,50,1) 100%);">
+	<div class="col-md-6 col-md-offset-5">
+		<label style="margin-top: 200px; text-align: center">Digite o nome do meu amorzinho!</label><br />
+		<input style="margin-left: 30px" id="cu" ></input><br /><br />
+		<button style="margin-left: 75px" class="btn btn-primary" onclick="loginho()">clique</button>
+	</div>
+</body>
+</html>
+
+
+
+<script>
+function loginho(){
+var login = document.getElementById("cu").value;
+if(login == "Ana" || login == 'ana' || login == 'aninha'){
+window.location.href = "pagina1.html";
+}else{
+alert('errado');
+}
+
+}
+
+</script>
